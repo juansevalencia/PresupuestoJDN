@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Generador de Presupuestos</title>
+</head>
+<body>
+    <h1>Generar Presupuesto</h1>
+    <form action="/generar" method="post">
+        <label>Tipo de pasto:</label>
+        <input type="text" name="tipo"><br><br>
+
+        <label>Ubicación:</label>
+        <input type="text" name="ubicacion"><br><br>
+
+        <label>Metros cuadrados:</label>
+        <input type="number" step="0.01" name="metros"><br><br>
+
+        <label>Precio por m²:</label>
+        <input type="number" step="0.01" name="precio"><br><br>
+
+        <label>Colocación (por m², 0 si no aplica):</label>
+        <input type="number" step="0.01" name="colocacion"><br><br>
+
+        <label>Flete (0 si no aplica):</label>
+        <input type="number" step="0.01" name="flete"><br><br>
+
+        <button type="submit">Generar Presupuesto</button>
+    </form>
+</body>
+</html>
