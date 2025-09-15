@@ -23,9 +23,9 @@ def generar():
     ws = wb.active
 
     # Escribir datos (asegurate que estas celdas no sean merged)
-    ws["C2"] = tipo
+    ws["A2"] = tipo
     ws["C11"] = tipo
-    ws["C4"] = ubicacion
+    ws["A4"] = ubicacion
     ws["G11"] = precio
     ws["G12"] = colocacion
     ws["G13"] = flete
